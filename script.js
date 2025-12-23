@@ -28,7 +28,7 @@ for (let i=0;i<rn;i++){
     //create columns
     for (let j=0;j<cn; j++){
         const cell= row.insertCell();
-        cell.innerText=`Row-${i} Column-$(j)`;
+        cell.innerText=`Row-${i} Column-${j}`;
     }
 }
 }
