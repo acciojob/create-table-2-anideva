@@ -21,13 +21,13 @@ if (rn<=0 ||cn<=0) {
 //get the table element 
 const table= document .getElementById("myTable");
 //table content
-table.innerHTML="";
+table.innerHTML= "";
 //create rows
 for (let i=0;i<rn;i++){
     const row = table.insertRow();
     //create columns
     for (let j=0;j<cn; j++){
-        const cell= row.insertcell();
+        const cell= row.insertCell();
         cell.innerText=`Row-${i} Column-$(j)`;
     }
 }
